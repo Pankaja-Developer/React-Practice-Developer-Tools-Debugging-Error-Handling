@@ -1,3 +1,3 @@
-# JSX
+# Multiple Elements inside ReactDOM.render()
 
-this contains JSX practice set.
+this contains how to insert multiple element inside render method.
