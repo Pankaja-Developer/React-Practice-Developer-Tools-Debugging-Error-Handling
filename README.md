@@ -1,3 +1,3 @@
-# Multiple Elements inside ReactDOM.render()
+# Fragment in React JS
 
-this contains how to insert multiple element inside render method.
+this contains how to use fragmentation in different ways.

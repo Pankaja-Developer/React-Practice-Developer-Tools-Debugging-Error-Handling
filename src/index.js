@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 ReactDOM.render(
-  // <div>
-  [
-    <h1>1st element within div tag</h1>,
-    <p>2nd element within div tag</p>,
-    <h2>3rd element within div tag</h2>,
-  ],
-  // </div>
+  // <React.Fragment>
+  <>
+    <h1>1st element within fragment</h1>
+    <p>2nd element within fragment</p>
+    <h2>3rd element within fragment</h2>
+    {/* </React.Fragment> */}
+  </>,
   document.getElementById("root")
 );
