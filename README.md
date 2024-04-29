@@ -1,3 +1,3 @@
-# Attribute in React
+# Class Vs ClassName
 
-This Project is for HTML Attribute Vs JSX Attribute in React
+Class Vs ClassName in React JS
