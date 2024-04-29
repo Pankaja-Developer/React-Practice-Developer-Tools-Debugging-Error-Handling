@@ -1,3 +1,3 @@
-# Class Vs ClassName
+# Google fonts in React
 
-Class Vs ClassName in React JS
+How to use Google fonts in React JS.
