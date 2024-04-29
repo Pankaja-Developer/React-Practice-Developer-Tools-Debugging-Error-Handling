@@ -11,6 +11,7 @@ ReactDOM.render(
     <p>
       Current Date is = {currDate} {currTime}
     </p>
+    <p>Current time is {currTime}</p>
   </>,
   document.getElementById("root")
 );
