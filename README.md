@@ -1,2 +1,3 @@
-# Display Current Date and Time in JSX in React JS
-Display Current Date and Time Dynamically
+# Attribute in React
+
+This Project is for HTML Attribute Vs JSX Attribute in React
