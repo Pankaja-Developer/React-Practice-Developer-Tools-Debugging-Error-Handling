@@ -1,3 +1,3 @@
-# Components
+# Rewrite Mini-Project #1
 
-This project is for how to create different components.
+Rewrite our React Project into Components
