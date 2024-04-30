@@ -1,49 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-const name = "Pankaj";
-const image1 = "https://picsum.photos/136/354";
-const image2 = "https://picsum.photos/200/354";
-const image3 = "https://picsum.photos/400/354";
-const link = "https://github.com/Pankaja-Developer?tab=repositories";
 
-// .heading {
-//   color: #fa9191;
-//   text-align: center;
-//   text-transform: uppercase;  //kebab-case but in extranal css
-//   font-weight: bold;
-//   margin: 50px 0;
-//   font-family: "Roboto", sans-serif;
-// }
+let curDate = new Date();
+// let curDate = new Date(2024, 4, 30, 22);
+curDate = curDate.getHours();
+let greeting = "";
+const cssStyle = {};
 
-const heading = {
-  color: "#fa9191",
-  textTransform: "uppercase",
-  textAlign: "center", //need to use camelCase
-  fontWeight: "bold",
-  margin: "50px 0",
-  fontFamily: '"Roboto", "sans-serif"',
-};
+if (curDate >= 1 && curDate < 12) {
+  greeting = "Good Morning";
+  cssStyle.color = "green";
+} else if (curDate >= 12 && curDate < 16) {
+  greeting = "Good Afternoon";
+  cssStyle.color = "orange";
+} else if (curDate >= 16 && curDate < 20) {
+  greeting = "Good Evening";
+  cssStyle.color = "gray";
+} else {
+  greeting = "Good Night";
+  cssStyle.color = "red";
+}
+
 ReactDOM.render(
   <>
-    {/* <h1
-      style={{
-        color: "#fa9191",
-        textTransform: "uppercase",
-        textAlign: "center",
-      }}
-    >
-      My name is {name}
-    </h1> */}
-    <h1 style={heading}>My name is {name}</h1>
-    <div className="img-div">
-      <img src={image1} alt="loading image" />
-      <img src={image1} alt="loading image" />
-      <a href={link} target="-Pankaj">
-        <img src={image1} alt="loading image" />
-      </a>
+    <div>
+      <h1>
+        Hello Sir, <span style={cssStyle}>{greeting}</span>
+      </h1>
     </div>
   </>,
-
   document.getElementById("root")
 );

@@ -1,3 +1,3 @@
-# Internal CSS & Inline CSS
+# Mini-Project #1
 
-Internal CSS & Inline CSS Styling In React JS
+Creating Simple Greeting Website using React.
