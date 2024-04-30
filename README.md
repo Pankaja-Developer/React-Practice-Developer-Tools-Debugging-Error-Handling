@@ -1,3 +1,3 @@
-# Google fonts in React
+# Internal CSS & Inline CSS
 
-How to use Google fonts in React JS.
+Internal CSS & Inline CSS Styling In React JS
