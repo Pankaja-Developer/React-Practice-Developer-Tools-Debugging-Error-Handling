@@ -1,3 +1,3 @@
-# Mini-Project #1
+# Components
 
-Creating Simple Greeting Website using React.
+This project is for how to create different components.
