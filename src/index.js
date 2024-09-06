@@ -1,6 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+// import App from "./App"
+// import something, {title, Myname} from "./App";
+import * as something from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <>
+    <ol>
+      {/* <li>{App}</li> */}
+      {/* <li>{something}</li>
+      <li>{title}</li>
+      <li>{Myname()}</li> */}
+       <li>{something.default}</li>
+      <li>{something.title}</li>
+      <li>{something.Myname()}</li>
+
+    </ol>
+  </>,
+  document.getElementById("root")
+);

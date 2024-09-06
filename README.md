@@ -1,3 +1,3 @@
-# Rewrite Mini-Project #1
+# React-Practice-import-export
 
-Rewrite our React Project into Components
+How to multiple properties and methos export anf import to any components.
