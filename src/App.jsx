@@ -1,10 +1,16 @@
-const name = "Pankaj";
-const title = "Sahu";
+import { add, sub, mul, div } from "./Cal";
 
-function Myname(){
-  const fullname="Pankaj Sahu"
-  return( fullname);
+function App() {
+  return (
+    <>
+      <ul>
+        <li>{add(40, 5)}</li>
+        <li>{sub(40, 5)}</li>
+        <li>{mul(40, 5)}</li>
+        <li>{div(40, 3)}</li>
+      </ul>
+    </>
+  );
 }
 
-export default name;
-export { title, Myname };
+export default App;

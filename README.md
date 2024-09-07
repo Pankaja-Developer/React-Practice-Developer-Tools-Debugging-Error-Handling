@@ -1,3 +1,3 @@
-# React-Practice-import-export
+# React JS Challenge #5: Create Simple Calculator App
 
-How to multiple properties and methos export anf import to any components.
+This project is a simple calculator App
