@@ -1,3 +1,3 @@
-# React JS Challenge #5: Create Simple Calculator App
+# Props
 
-This project is a simple calculator App
+How to make custom properties within components
