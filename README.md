@@ -1,3 +1,3 @@
-# Props using map aad fat arrow method
+# Developer Tools Debugging & Error Handling in React JS
 
-How to make custom properties within components in different way.
+This is how to install Developer tools in browser and error handle from console using key
